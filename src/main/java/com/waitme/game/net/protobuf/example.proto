@@ -1,0 +1,9 @@
+option java_package = "com.waitme.game.net.protobuf";  
+option java_outer_classname = "Example";  
+  
+message Example_proto{  
+    required string cmd = 1;
+    optional int32 keycode = 2;      
+    optional sint32 posX = 3;
+    optional sint32 posY = 4;
+}  
